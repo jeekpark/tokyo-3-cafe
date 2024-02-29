@@ -2,12 +2,17 @@
   "name": "tokyo-3-cafe",
   "displayName": "Tokyo 3 Cafe",
   "description": "Tokyo-3 based theme for C++",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "jeekpark",
   "repository": {
     "type": "git",
     "url": "https://github.com/jeekpark/tokyo-3-cafe.git"
   },
+  "icon": "icon.png",
+	"galleryBanner": {
+		"color": "#1f2335",
+		"theme": "dark"
+	},
   "keywords": [
     "theme",
     "dark theme",
