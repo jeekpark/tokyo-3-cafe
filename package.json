@@ -1,0 +1,25 @@
+{
+  "name": "tokyo-3-cafe",
+  "displayName": "Tokyo 3 Cafe",
+  "description": "Tokyo-3 based theme for C++",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo 3 Cafe",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokyo 3 Cafe-color-theme.json"
+      }
+    ]
+  }
+}
