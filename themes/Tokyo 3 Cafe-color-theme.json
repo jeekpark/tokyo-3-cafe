@@ -115,12 +115,12 @@
         "editorBracketPairGuide.activeBackground6": "#8F5E15",
 
         "selection.background": "#fafbff55",
-        "editor.background": "#f1f2f7",
+        "editor.background": "#f4f6ff",
         "editor.foreground": "#343b59",
         "editor.foldBackground": "#b2b3b833",
         "editorLink.activeForeground": "#1f2335",
 
-        "editor.selectionBackground": "#fafbff40",
+        "editor.selectionBackground": "#b5c2df79",
         "editor.inactiveSelectionBackground": "#fafbff15",
 
         "editor.findMatchBackground": "#fafbff66",
@@ -138,7 +138,7 @@
         "editorIndentGuide.activeBackground": "#f4f5f8",
         "editorLineNumber.foreground": "#9da0ab",
         "editorLineNumber.activeForeground": "#4c505e",
-        "editor.lineHighlightBackground": "#dcdee3",
+        "editor.lineHighlightBackground": "#cccfd379",
         "editorWhitespace.foreground": "#d5d6db",
 
         "editorMarkerNavigation.background": "#cbccd1",
@@ -436,7 +436,7 @@
                 "comment.block.documentation punctuation"
 			],
 			"settings": {
-				"foreground": "#565f89"
+				"foreground": "#565f89a5"
 			}
         },
         {
@@ -482,8 +482,7 @@
                 "meta.attribute-selector"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#fa9818"//"#9ece6a"
+                "foreground": "#DF215A"//"#9ece6a"
             }
         },
         {
@@ -525,7 +524,9 @@
                 "keyword",
                 "keyword.control",
                 "keyword.other.important",
-                "entity.other.attribute-name.pragma.preprocessor.cpp"
+                "entity.other.attribute-name.pragma.preprocessor.cpp",
+                "punctuation.definition.directive.cpp",
+
             ],
             "settings": {
                 "foreground": "#e89300"
@@ -556,7 +557,10 @@
                 "meta.at-rule.mixin punctuation.separator.key-value",
                 "meta.directive.vue punctuation.separator.key-value.html",
                 "punctuation.separator.inheritance.php",
-                "punctuation.separator.scope-resolution.parameter.cpp"
+                "punctuation.separator.scope-resolution.parameter.cpp",
+
+                "punctuation.separator.scope-resolution.function.call.cpp",//::
+                "keyword.operator.bitwise.cpp"
             ],
             "settings": {
                 "foreground": "#2189c9"//#568100"//"#9d7cd8"
@@ -670,13 +674,10 @@
                 "constant.language",
                 "constant.numeric",
                 "support.constant",
-                // "constant.language.null",
-                // "constant.language.undefined",
-                // "constant.language.go",
-                // "constant.language.boolean",
-                // "constant.language.json",
-                // "constant.language.infinity",
-                // "constant.language.nan"
+                
+                "punctuation.definition.string.begin.cpp",
+                "punctuation.definition.string.end.cpp",
+                "string.quoted.double.cpp"
             ],
             "settings": {
                 "foreground": "#DF215A"//"#ff9e64"
@@ -764,7 +765,7 @@
                 "keyword.operator.rest"
             ],
             "settings": {
-                "foreground": "#f7768e",
+                "foreground": "#DF215A",
                 "fontStyle": "bold"
             }
         },
@@ -780,7 +781,6 @@
                 "meta.tag.template.value.twig meta.function.arguments.twig",
                 
                 "punctuation.definition.constant.markdown",
-                "punctuation.definition.string",
                 "punctuation.support.type.property-name",
                 "text.html.vue-html meta.tag",
                 "punctuation.definition.keyword",
@@ -794,7 +794,7 @@
                 "meta.at-rule.function variable.parameter.url"
             ],
             "settings": {
-                "foreground": "#e89300"
+                "foreground": "#393939"
             }
         },
         {
@@ -1414,7 +1414,7 @@
                 "punctuation.section"
             ],
             "settings": {
-                "foreground": "#e89300"
+                "foreground": "#393939"
             }
         },
         {
@@ -1651,7 +1651,7 @@
                 "meta.preprocessor"
             ],
             "settings": {
-                "foreground": "#73daca"
+                "foreground": "#393939"
             }
         },
         {
