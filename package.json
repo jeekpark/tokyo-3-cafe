@@ -1,21 +1,21 @@
 {
   "name": "tokyo-3-cafe",
   "displayName": "Tokyo 3 Cafe",
-  "description": "Tokyo-3 based theme for C++",
-  "version": "0.0.5",
+  "description": "VSC light Theme for C++",
+  "version": "0.0.6",
   "publisher": "jeekpark",
   "repository": {
     "type": "git",
     "url": "https://github.com/jeekpark/tokyo-3-cafe.git"
   },
-  "icon": "icon.png",
+  "icon": "icon_cafe.png",
 	"galleryBanner": {
 		"color": "#1f2335",
-		"theme": "dark"
+		"theme": "light"
 	},
   "keywords": [
     "theme",
-    "dark theme",
+    "light theme",
     "c++ theme",
     "tokyo theme"
   ],
@@ -29,7 +29,7 @@
     "themes": [
       {
         "label": "Tokyo 3 Cafe",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/Tokyo 3 Cafe-color-theme.json"
       }
     ]

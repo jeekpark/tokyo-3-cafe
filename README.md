@@ -1,13 +1,10 @@
 # Tokyo 3 Cafe
-C++ Specialized versions of [Tokyo Night](https://github.com/enkia/tokyo-night-vscode-theme).
+<img src="https://raw.githubusercontent.com/jeekpark/tokyo-3-cafe/master/icon_bar.png" width="100" height="100"/>
 
-## Tokyo 3 Cafe Dark
+A clean Visual Studio Code theme
 
-![Screenshot - Tokyo Night Frameless](https://raw.githubusercontent.com/jeekpark/tokyo-3-cafe/master/static/ss_tokyo_3_cafe_dark.png)
+#### * C++ Specialized versions
 
-## Tokyo 3 Cafe Light
-Coming soon
+## Screenshots
 
-
-
-
+![Screenshot - Tokyo Night Frameless](https://raw.githubusercontent.com/jeekpark/tokyo-3-cafe/master/static/ss_tokyo_3_cafe.png)
