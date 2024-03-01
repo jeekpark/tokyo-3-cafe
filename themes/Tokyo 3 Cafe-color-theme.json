@@ -355,6 +355,17 @@
             }
         },
         {
+            "name": "Storage Type virtual",
+            "scope": [
+                "storage.modifier.virtual.cpp",
+                "storage.modifier.specifier.functional.pre-parameters.virtual.cpp"
+            
+            ],
+            "settings": {
+                "foreground": "#E75B4F"//"#bb9af7"
+            }
+        },
+        {
             "name": "Storage - modifier, var, const, let",//const제한자
             "scope": [
                 "meta.var.expr storage.type",
@@ -374,7 +385,7 @@
                 "punctuation.section.tag.twig"
             ],
             "settings": {
-                "foreground": "#7dcfff"
+                "foreground": "#FED243"
             }
         },
         {
@@ -739,7 +750,17 @@
                 "meta.import.qualifier"
             ],
             "settings": {
-                "foreground": "#00e257"//"#2ac3de"
+                "foreground": "#FED243"//"#2ac3de"
+            }
+        },
+        {
+            "name": "Class const member function",
+            "scope": [
+                
+                "storage.modifier.specifier.functional.post-parameters.const.cpp",
+            ],
+            "settings": {
+                "foreground": "#E75B4F"//"#2ac3de"
             }
         },
         {
@@ -1196,7 +1217,7 @@
                 "punctuation.section"
             ],
             "settings": {
-                "foreground": "#9abdf5"
+                "foreground": "#FED243"
             }
         },
         {
