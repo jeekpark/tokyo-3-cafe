@@ -10,7 +10,7 @@
   },
   "icon": "icon_cafe.png",
 	"galleryBanner": {
-		"color": "#1f2335",
+		"color": "#000000",
 		"theme": "light"
 	},
   "keywords": [
