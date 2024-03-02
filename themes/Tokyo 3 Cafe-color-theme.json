@@ -312,12 +312,12 @@
         "debugIcon.breakpointDisabledForeground": "#828594",
         "debugIcon.breakpointUnverifiedForeground": "#c24242",
 
-        "terminal.background": "#cbccd1",
-        "terminal.foreground": "#4c505e",
-        "terminal.selectionBackground": "#fafbff40",
+        "terminal.background": "#f4f6ff",
+        "terminal.foreground": "#000000",
+        "terminal.selectionBackground": "#81818140",
         "terminalCursor.foreground": "#828594",
-
-        "terminal.ansiBlack": "#0f0f14",
+        "terminal.ansiWhite": "#ffffff",
+        /* "terminal.ansiBlack": "#0f0f14",
         "terminal.ansiRed": "#8c4351",
         "terminal.ansiGreen": "#33635c",
         "terminal.ansiYellow": "#8f5e15",
@@ -332,9 +332,9 @@
         "terminal.ansiBrightBlue": "#34548a",
         "terminal.ansiBrightMagenta": "#5a4a78",
         "terminal.ansiBrightCyan": "#0f4b6e",
-        "terminal.ansiBrightWhite": "#828594",
+        "terminal.ansiBrightWhite": "#828594", */
 
-        "gitDecoration.modifiedResourceForeground": "#34548a",
+        /* "gitDecoration.modifiedResourceForeground": "#34548a",
         "gitDecoration.ignoredResourceForeground": "#828594",
         "gitDecoration.deletedResourceForeground": "#914c54",
         "gitDecoration.renamedResourceForeground": "#166775",
@@ -342,7 +342,7 @@
         "gitDecoration.untrackedResourceForeground": "#166775",
         "gitDecoration.conflictingResourceForeground": "#8f5e15",
         "gitDecoration.stageDeletedResourceForeground": "#914c54",
-        "gitDecoration.stageModifiedResourceForeground": "#34548a",
+        "gitDecoration.stageModifiedResourceForeground": "#34548a", */
 
         "notebook.editorBackground": "#d5d6db",
         "notebook.cellEditorBackground": "#cbccd1",
@@ -1297,7 +1297,7 @@
             "name": "Escape Characters",
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#89ddff"
+                "foreground": "#9a019f"
             }
         },
         {
