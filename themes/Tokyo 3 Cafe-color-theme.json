@@ -120,6 +120,7 @@
         "editor.foldBackground": "#b2b3b833",
         "editorLink.activeForeground": "#1f2335",
 
+
         "editor.selectionBackground": "#b5c2df79",
         "editor.inactiveSelectionBackground": "#fafbff15",
 
@@ -128,10 +129,10 @@
         "editor.findMatchHighlightBackground": "#fafbff66",
 
         "editor.findRangeHighlightBackground": "#34548a15",
-        "editor.rangeHighlightBackground": "#fafbff20",
-        "editor.wordHighlightBackground": "#fafbff33",
-        "editor.wordHighlightStrongBackground": "#fafbff66",
-        "editor.selectionHighlightBackground": "#fafbff55",
+        "editor.rangeHighlightBackground": "#34548a15",
+        "editor.wordHighlightBackground": "#34548a15",
+        "editor.wordHighlightStrongBackground": "#34548a15",
+        "editor.selectionHighlightBackground": "#34548a15",
 
         "editorCursor.foreground": "#4c505e",
         "editorIndentGuide.background": "#cacbcf",
@@ -725,6 +726,24 @@
                 "foreground": "#DF215A"//"#bb9af7"
             }
         },
+        {
+            "name": "MACRO",
+            "scope": [
+                "entity.name.function.preprocessor",
+                "storage.modifier.specifier.functional.pre-parameters.virtual.cpp"
+            
+            ],
+            "settings": {
+                "foreground": "#2189C9"//"#bb9af7"
+            }
+        },
+        {
+            "name": "Support Function",
+            "scope": "support.function",
+            "settings": {
+                "foreground": 	"#2189C9"
+            }
+        },
         //-----------------------------------------------------------------
         //-----------------------------------------------------------------
         //-----------------------------------------------------------------
@@ -830,7 +849,7 @@
                 "keyword.operator.or.regexp"
             ],
             "settings": {
-                "foreground":  "#bb9af7"
+                "foreground":  "#393939"
             }
         },
         {
@@ -980,13 +999,7 @@
         //         "foreground": "#c0caf5"
         //     }
         // },
-        {
-            "name": "Support Function",
-            "scope": "support.function",
-            "settings": {
-                "foreground": "#2ac3de"
-            }
-        },
+        
         {
             "name": "CSS Class and Support",
             "scope": [
